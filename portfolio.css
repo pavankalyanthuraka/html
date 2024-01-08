@@ -1,0 +1,49 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    align-items: center;
+    background-color: aqua;
+}
+
+  .menu ul li{
+    display:inline-block;
+    margin-right: 100px;
+    background-color:white;
+    border:1px solid black;
+    width:50px;
+    height:20px;
+    text-align: center;
+    border-radius: 5px;
+   
+   padding: 15px;
+    
+  } 
+  a{
+    text-decoration: none;
+  }
+  a:active{
+    color: green;
+}
+#home{
+  text-align: center;
+  align-items: center;
+  margin-top: 150px;
+  
+  
+}
+h2{
+  color: blue;
+}
+.class1{
+  width: 5vw;
+  height: 5vh;
+  border-radius: 5px;
+}
+
+.class2{
+  width: 5vw;
+  height: 5vh;
+  border-radius: 5px;
+}

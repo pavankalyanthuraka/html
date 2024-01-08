@@ -1,0 +1,33 @@
+#movies_library
+{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+padding: 50px;
+gap:30px;
+}
+.movie
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    transition: all 1s ease
+ }
+     .movie img
+     {
+        height: 150px;
+        width: 150px;
+        border-radius: 10px;
+    }
+    .movie:hover
+    {
+       scale: 1.05;
+
+    }
+    a{
+        text-decoration: none;
+    }

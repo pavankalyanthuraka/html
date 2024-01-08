@@ -1,0 +1,16 @@
+h2{
+    text-align: center;
+}
+.grid-container {
+    display: grid; /* Create a grid container */
+    grid-template-columns: repeat(3, 1fr); /* Define 3 equal columns */
+    grid-template-rows: repeat(2, 100px); /* Define 2 rows, each 100px tall */
+    gap: 10px; /* Define the gap between grid items */
+    background-color: lightblue;
+    padding: 20px;
+}
+.grid-item {
+    background-color: lightgreen;
+    padding: 10px;
+    text-align: center;
+}
